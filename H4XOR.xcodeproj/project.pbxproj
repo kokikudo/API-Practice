@@ -14,6 +14,9 @@
 		FD6E233427A8C4EF0005438C /* H4XORTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6E233327A8C4EF0005438C /* H4XORTests.swift */; };
 		FD6E233E27A8C4EF0005438C /* H4XORUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6E233D27A8C4EF0005438C /* H4XORUITests.swift */; };
 		FD6E234027A8C4EF0005438C /* H4XORUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6E233F27A8C4EF0005438C /* H4XORUITestsLaunchTests.swift */; };
+		FD6E234E27A8E41C0005438C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6E234D27A8E41C0005438C /* NetworkManager.swift */; };
+		FD6E235027A8E6F70005438C /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6E234F27A8E6F70005438C /* PostData.swift */; };
+		FD6E235327A8FDDD0005438C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6E235227A8FDDD0005438C /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		FD6E233927A8C4EF0005438C /* H4XORUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = H4XORUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD6E233D27A8C4EF0005438C /* H4XORUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H4XORUITests.swift; sourceTree = "<group>"; };
 		FD6E233F27A8C4EF0005438C /* H4XORUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H4XORUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FD6E234D27A8E41C0005438C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FD6E234F27A8E6F70005438C /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		FD6E235227A8FDDD0005438C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +100,9 @@
 		FD6E232127A8C4EB0005438C /* H4XOR */ = {
 			isa = PBXGroup;
 			children = (
+				FD6E234C27A8E3F70005438C /* Models */,
 				FD6E232227A8C4EB0005438C /* H4XORApp.swift */,
-				FD6E232427A8C4EB0005438C /* ContentView.swift */,
+				FD6E235127A8FD9F0005438C /* Views */,
 				FD6E232627A8C4EE0005438C /* Assets.xcassets */,
 				FD6E232827A8C4EE0005438C /* Preview Content */,
 			);
@@ -125,6 +132,24 @@
 				FD6E233F27A8C4EF0005438C /* H4XORUITestsLaunchTests.swift */,
 			);
 			path = H4XORUITests;
+			sourceTree = "<group>";
+		};
+		FD6E234C27A8E3F70005438C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FD6E234D27A8E41C0005438C /* NetworkManager.swift */,
+				FD6E234F27A8E6F70005438C /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FD6E235127A8FD9F0005438C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD6E232427A8C4EB0005438C /* ContentView.swift */,
+				FD6E235227A8FDDD0005438C /* DetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD6E234E27A8E41C0005438C /* NetworkManager.swift in Sources */,
+				FD6E235027A8E6F70005438C /* PostData.swift in Sources */,
 				FD6E232527A8C4EB0005438C /* ContentView.swift in Sources */,
+				FD6E235327A8FDDD0005438C /* DetailView.swift in Sources */,
 				FD6E232327A8C4EB0005438C /* H4XORApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
